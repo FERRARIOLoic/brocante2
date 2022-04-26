@@ -96,7 +96,9 @@ h4 {
     font-size: 24px;
     padding-left: 48px;
 }
-
+#hidedDesktopDiv {
+    display: none;
+}
 .image {
     filter: brightness(0) invert(1);
 }
@@ -261,6 +263,7 @@ a {
     }
     .span2 {
         padding: unset;
+        padding-bottom: 2vh;
     }
     #topSide {
         padding: unset;
@@ -269,5 +272,14 @@ a {
     }
     .imageBlack {
         filter: invert(0%) sepia(21%) saturate(2835%) hue-rotate(340deg) brightness(87%) contrast(108%);
+        display: none;
+    }
+    #hidedDesktopDiv {
+        display: unset;
+        filter: invert(96%) sepia(4%) saturate(0%) hue-rotate(315deg) brightness(103%) contrast(108%);
+        padding-bottom: 2vh;
+    }
+    .imageHome {
+        width: 8vw;
     }
 }
