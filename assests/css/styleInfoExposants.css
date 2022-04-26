@@ -1,0 +1,139 @@
+/* eeeeeeeeet c'est parti ! */
+
+
+body {
+    font-family: Roboto;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+}
+
+    #side {
+        background-color: #E2001A;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+        #topSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 24px;
+        }
+
+        #botSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 24px;
+        }
+
+    .main {
+        background-color: rgb(255, 255, 255);
+        flex: 9;
+        display: flex;
+    }
+
+
+        .wrapper {
+            background-color: white;
+            height: 660px;
+            width: 993px;
+            margin: auto;
+            border-radius: 16px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+            padding-left: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+    
+                    .image {
+                        filter: brightness(0) invert(1);
+                        padding: 48px;
+                    }
+            
+                    /* .button {
+                        height: 36px;
+                        width: 100px;
+                        background-color: #E2001A;
+                        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.332);
+                        font-size: 14px;
+                        color: white;
+                        border-radius: 5px;
+                        border: none;
+                    } */
+
+                .form2 {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 100px;
+
+                }
+                    
+
+.imageBlack {
+    filter: none;
+}
+
+.parameter {
+    align-self: flex-start;
+}
+
+
+span {
+    color: white;
+}
+
+.span2 {
+    padding-bottom: 40px;
+}
+.imageHome {
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}   
+
+.buttonReturn {
+    height: 36px;
+    width: 100px;
+    background-color: #E2001A;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.332);
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.infoButton {
+    align-self: flex-start;
+}
+
+.buttonReturn2 {
+    align-self: flex-end;
+    margin-right: 48px;
+}
+
+p {
+    padding-right: 48px;
+    font-size: 14px;
+}
+
+h4 {
+    padding-right: 48px;
+    margin-bottom: -24px;
+    font-size: 24px;
+}
+
+ul {
+    padding-right: 48px;
+    margin-top: -30px;
+
+}
