@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -12,14 +18,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 20vh;
 }
 
 .titlePage {
     height: 90vh;
     background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
-    background-size: 100%;
-    background-position-y: center;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbtn {
@@ -205,6 +213,7 @@ h5 {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+
 }
 
 .titlePage {
@@ -386,19 +395,19 @@ h5 {
 /* fin de la page info début de la page contact */
 
 .mapsContact {
-    display: flex;
-    flex-wrap: wrap;
-    /* height: 90vh; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    height: 130vh;
     background: rgb(49, 49, 49);
     background: linear-gradient(180deg, rgba(49, 49, 49, 1) 0%, rgba(146, 0, 0, 1) 0%, rgba(254, 0, 0, 1) 70%, rgba(255, 255, 255, 1) 30%);
     padding-top: 1rem;
 }
 
 .titleAcces {
-    flex: 30vw;
-    display: flex;
-    height: 2rem;
-    padding-left: 2rem;
+    /* flex: 30vw; */
+    /* display: flex; */
+    /* height: 2rem;
+    padding-left: 2rem; */
     color: white;
 }
 
@@ -415,9 +424,9 @@ h5 {
 }
 
 .titleContact {
-    flex: 55vw;
+    /* flex: 55vw;
     display: flex;
-    height: 2rem;
+    height: 2rem; */
 }
 
 .titleContact img {
@@ -433,8 +442,8 @@ h5 {
 }
 
 .upPage {
-    flex: 5vw;
-    height: 2rem;
+    /* flex: 5vw;
+    height: 2rem; */
 }
 
 .upPage img {
@@ -480,13 +489,13 @@ h5 {
 }
 
 .titleForm {
-    display: flex;
+    /* display: flex; */
     /* flex: 1; */
-    flex-direction: column;
-    height: 620px;
+    /* flex-direction: column; */
+    height: 75vh;
     background-color: #E2001A;
     color: white;
-    position: relative;
+    /* position: relative; */
     top: 0.9%;
     border-radius: 30px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
@@ -494,15 +503,15 @@ h5 {
 }
 
 .titre {
-    flex: 2;
-    padding-left: 2rem;
+    /* flex: 2; */
+    /* padding-left: 2rem; */
     padding-top: 25%;
     align-items: center;
     font-size: 24px;
 }
 
 .formInfo {
-    flex: 1;
+    /* flex: 1; */
     padding-left: 2rem;
     font-size: 14px;
 }
@@ -531,24 +540,24 @@ h5 {
 
 .trueForm {
     font-size: 14px;
-    flex: 2;
+    /* flex: 2;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
     background-color: white;
-    height: 620px;
-    position: relative;
-    top: 0.9%;
-    margin-right: 10%;
+    /* height: 620px; */
+    /* position: relative; */
+    /* top: 0.9%; */
+    /* margin-right: 10%; */
     border-radius: 30px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333)
 }
 
 .infoBase {
     padding-top: 2rem;
-    flex: 1;
+    /* flex: 1;
     display: flex;
     flex-wrap: wrap;
-    border: none;
+    border: none; */
     padding-left: 4rem;
 }
 
@@ -583,9 +592,9 @@ h5 {
 
 .Envoyerbtn {
     background-color: #E2001A;
-    position: relative;
-    left: 80%;
-    bottom: 100%;
+    /* position: relative; */
+    /* left: 80%; */
+    /* bottom: 100%; */
     border: none;
     height: 36px;
     border-radius: 10px;
@@ -593,8 +602,9 @@ h5 {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
-/* footer  */
 
+
+/* footer  */
 
 .footer {
     display: flex;
@@ -742,5 +752,48 @@ ul {
 }
 
 .imgManu {
-    width:50vh;
+    width: 50vh;
+}
+
+
+.butonexpo {
+    color: #E2001A;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+
+}
+
+.collapse {
+    align-items: right !important;
+}
+
+.navbar-collapse {
+    align-items: right !important;
+}
+
+#buttonDisplaySm {
+    display: inline-block;
+}
+
+#buttonDisplayLg {
+    display: none;
+}
+
+.nav-link {
+    padding-top: 3vh !important;
+}
+
+@media screen and (min-width:576px) {
+    #buttonDisplaySm {
+        display: none;
+    }
+
+    #buttonDisplayLg {
+        display: inline-block;
+    }
 }
