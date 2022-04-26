@@ -405,3 +405,12 @@ background: linear-gradient(180deg, rgba(49,49,49,1) 0%, rgba(146,0,0,1) 0%, rgb
     height: 150px;
     width: 150px;
 }
+
+@media screen and (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: black;
+    }
+}
