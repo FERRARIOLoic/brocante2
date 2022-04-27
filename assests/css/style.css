@@ -336,8 +336,7 @@ h5 {
     height: 36px;
     width: 120px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
-    padding-bottom: 5%;
-
+    /* padding-bottom: 5%; */
 }
 
 #buttonInscription {
