@@ -7,13 +7,18 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 a {
     text-decoration: none;
     color: inherit;
 }
-
+main {
+    height: 415vh;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -688,7 +693,7 @@ h5 {
 
 .main {
     background-color: rgb(255, 255, 255);
-    flex: 9;
+    /* flex: 9; */
     display: flex;
 }
 
