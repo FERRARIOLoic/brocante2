@@ -498,7 +498,7 @@ h5 {
     .titleForm {
         display: flex;
         /* flex: 1; */
-        height: 35vh;
+        height: 25vh;
         background-color: #E2001A;
         color: white;
         /* position: relative; */
@@ -579,20 +579,21 @@ h5 {
 }
 
 .infoBase {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     /* flex: 1; */
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    height:40vh;
     border: none;
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
 }
 .infoBaseButton {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     /* flex: 1; */
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     border: none;
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
 }
 
 .textFormInput {
