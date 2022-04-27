@@ -7,13 +7,18 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 a {
     text-decoration: none;
     color: inherit;
 }
-
+main {
+    height: 415vh;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -690,7 +695,11 @@ footer img {
 .main {
     background-color: rgb(255, 255, 255);
     /* flex: 9; */
+<<<<<<< HEAD
     /* display: flex; */
+=======
+    display: flex;
+>>>>>>> e8674e982b4035755b8eb3b513546e333f1073ee
 }
 
 
