@@ -43,7 +43,7 @@ a {
 }
 
 .navimg {
-    flex: 0.5;
+    /* flex: 0.5; */
     margin-left: 2rem;
 }
 
