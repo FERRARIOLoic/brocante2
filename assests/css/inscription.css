@@ -259,7 +259,7 @@ label {
         position: relative;
         top: -2vh;
         z-index: 1;
-        height: 100%;
+        height: 110vh;
         width: 90%;
         border-radius: 10px;
     }
@@ -286,7 +286,7 @@ label {
     form {
         padding-top: 2vh;
         width: 90%;
-        height: 100%;
+        height: 120vh;
         border-radius: 10px;
         margin: auto;
     }
@@ -299,6 +299,9 @@ label {
         text-align: center;
         margin: 0;
         align-items: center;
+    }
+    .files > p {
+        padding-bottom: 3vh;
     }
     .hidedOnDesktop {
         display: unset;
@@ -328,7 +331,7 @@ label {
 
     .contactZone {
         position: relative;
-        top: -2vh;
+        top: -25vh;
         display: flex;
         flex-direction: column;
         color: white;
@@ -338,7 +341,9 @@ label {
         align-items: center;
         justify-content: space-evenly;
     }
-
+    .contactZone > p {
+        margin-top: 10vh;
+    }
     .first, .second, .third {
         left: unset;
         width: 90%;
