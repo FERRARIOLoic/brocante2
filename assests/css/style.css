@@ -527,7 +527,7 @@ h5 {
     .titleForm {
         display: flex;
         /* flex: 1; */
-        height: 70vh;
+        height: 77vh;
         background-color: #E2001A;
         color: white;
         /* position: relative; */
@@ -596,7 +596,7 @@ h5 {
     /* flex: 1; */
     /* display: flex;
     flex-wrap: wrap; */
-    height:40vh;
+    height:70vh;
     border: none;
     /* padding-left: 4rem; */
 }
@@ -851,5 +851,15 @@ ul {
         justify-content: flex-start;
         align-items: flex-start;
         color: black;
+    }
+}
+@media screen and (max-width: 576px) {
+    #formMsg > textarea {
+        position: relative;
+        right: 13vw;
+        width: 43vw;
+    }
+    #formInfoBis a {
+        display: flex;
     }
 }
