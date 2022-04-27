@@ -650,17 +650,18 @@ h5 {
 
 /* footer  */
 
-/* .footer {
+footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.footer img {
+footer img {
     filter: brightness(0);
     height: 150px;
     width: 150px;
-} */
+}
 
 
 #side {
@@ -688,8 +689,8 @@ h5 {
 
 .main {
     background-color: rgb(255, 255, 255);
-    flex: 9;
-    display: flex;
+    /* flex: 9; */
+    /* display: flex; */
 }
 
 
