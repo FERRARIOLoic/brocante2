@@ -441,6 +441,14 @@ h5 {
     filter: brightness(0) invert(1);
 }
 
+#picsLaManu {
+    position: relative;
+    border-radius: 10px;
+    height: unset;
+    width: 100%;
+    filter: unset;
+    bottom: 6vh;
+}
 .titleContact h3 {
     margin-top: 0px;
     color: white;
@@ -642,7 +650,7 @@ h5 {
 
 /* footer  */
 
-.footer {
+/* .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -652,7 +660,7 @@ h5 {
     filter: brightness(0);
     height: 150px;
     width: 150px;
-}
+} */
 
 
 #side {
