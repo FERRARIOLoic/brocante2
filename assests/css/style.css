@@ -313,7 +313,9 @@ h5 {
     border-color: white;
     border-radius: 10px;
     height: 36px;
+    width: 120px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
+    margin-left: 5vh;
 
 }
 
@@ -322,11 +324,11 @@ h5 {
     border-radius: 10px;
     color: white;
     height: 36px;
+    width: 120px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
     border: none;
+    margin-right: 5vh;
 }
-
-
 
 
 
