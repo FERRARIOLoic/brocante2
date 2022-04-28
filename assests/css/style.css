@@ -16,9 +16,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 main {
     height: 415vh;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -404,6 +406,7 @@ h5 {
     filter: unset;
     bottom: 6vh;
 }
+
 .titleContact h3 {
     margin-top: 0px;
     color: white;
@@ -474,7 +477,7 @@ h5 {
 }
 
 .titre {
-    text-align:center;
+    text-align: center;
     padding-top: 15px;
     align-items: center;
     font-size: 24px;
@@ -515,9 +518,10 @@ h5 {
 }
 
 .infoBase {
-    height:40vh;
+    height: 40vh;
     border: none;
 }
+
 .infoBaseButton {
     border: none;
 }
@@ -561,20 +565,6 @@ h5 {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
-/* footer  */
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer img {
-    filter: brightness(0);
-    height: 150px;
-    width: 150px;
-}
 
 #side {
     background-color: #E2001A;
@@ -722,72 +712,67 @@ ul {
     padding-top: 3vh !important;
 }
 
-@media screen and (min-width:576px) {
-    #buttonDisplaySm {
-        display: none;
-    }
-
-    #buttonDisplayLg {
-        display: inline-block;
-    }
-
-    footer {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        color: black;
-    }
-}
 
 /* Partie du footer Stef */
 
-.logoFooter {
-    height: 8vh;
-    margin-top: 3.5vh;
-}
+@media screen and (max-width:768px) {
+    .logoFooter {
+        height: 8vh;
+        margin-top: 3.5vh;
+    }
 
-.txtFooter {
-    font-size: 0.6rem;
-    white-space: normal;
-}
+    .txtFooter {
+        font-size: 0.6rem;
+        white-space: normal;
+    }
 
-.txtFootstart {
-    padding-bottom: 2vh;
-}
+    .txtFootstart {
+        padding-bottom: 2vh;
+    }
 
-.txtFootMiddle {
-    padding-bottom: 2vh;
-}
+    .txtFootMiddle {
+        padding-bottom: 2vh;
+    }
 
-.txtFootEnd {
-    padding-bottom: 2vh;
-}
+    .txtFootEnd {
+        padding-bottom: 2vh;
+    }
 
-.txtFootRight {
-    text-align: right;
-    padding-top: 0.5vh;
-}
+    .txtFootRight {
+        text-align: right;
+        padding-top: 0.5vh;
+    }
+} 
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:992px) {
+    footer{
+        background-color: #E2001A;
+        padding-bottom:5vh;
+    }
     .logoFooter {
         height: 12vh;
         padding-bottom: 2vh;
     }
+
     .txtFooter {
         font-size: 0.7rem;
         white-space: nowrap;
     }
+
     .txtFootstart {
         text-align: start;
-        padding-left: 5vh;      
+        padding-left: 5vh;
     }
+
     .txtFootEnd {
         text-align: end;
         padding-right: 5vh;
     }
+
     .txtFootRight {
         text-align: normal;
     }
+
     .txtFootEnd {
         align-items: flex-end;
     }
