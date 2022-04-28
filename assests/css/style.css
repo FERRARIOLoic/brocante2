@@ -9,7 +9,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 }
 
 main {
-    height: 415vh;
+    /* height: 415vh; */
 }
 
 .navbar {
@@ -404,14 +404,22 @@ h5 {
     height: unset;
     width: 100%;
     filter: unset;
-    bottom: 6vh;
+    bottom: 22.5%;
+}
+.titleContact {
+    height: 100%;
+    padding-left: 2vw;
+    
+
 }
 
 .titleContact h3 {
     margin-top: 0px;
     color: white;
 }
-
+.titleContact iframe {
+    height: 80%;
+}
 .upPage img {
     height: 20px;
     width: 20px;
@@ -450,23 +458,12 @@ h5 {
     top: 1%;
 }
 
-@media screen and (max-width:576px) {
-    .titleForm {
-        display: flex;
-        height: 25vh;
-        background-color: #E2001A;
-        color: white;
-        border-radius: 30px;
-        box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
-        flex-direction: column;
-        justify-content: space-between;
-    }
-}
+
 
 @media screen and (min-width:576px) {
     .titleForm {
         display: flex;
-        height: 70vh;
+        height: 100%;
         background-color: #E2001A;
         color: white;
         border-radius: 30px;
@@ -514,12 +511,16 @@ h5 {
     font-size: 14px;
     background-color: white;
     border-radius: 30px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333)
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+    height: 83%;
 }
 
 .infoBase {
-    height: 40vh;
+    height:100%;
+    display: flex;
+    flex-direction: column;
     border: none;
+    justify-content: space-evenly;
 }
 
 .infoBaseButton {
@@ -775,5 +776,44 @@ ul {
 
     .txtFootEnd {
         align-items: flex-end;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1181px) {
+    .titleContact > iframe {
+        height: 82%;
+    }
+    #picsLaManu {
+        bottom: 20.5%;
+    }
+}
+
+@media screen and (min-width: 819px) and (min-height: 1179px) {
+    #picsLaManu {
+        bottom: 9%;
+    }
+}
+@media screen and (max-width:576px) {
+    .titleForm {
+        display: flex;
+        height: 25vh;
+        background-color: #E2001A;
+        color: white;
+        border-radius: 30px;
+        box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    main {
+        height: 425vh;
+    }
+    .trueForm {
+        height: 100vh;
+    }
+    .infoBase {
+        height: 60%;
+    }
+    .formInfo > a {
+        display: flex;
+        
     }
 }
