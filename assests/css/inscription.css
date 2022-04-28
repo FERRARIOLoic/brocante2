@@ -20,6 +20,7 @@ a {
     background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
     background-size: 100%;
     background-position-y: center;
+
 }
 
 .navbtn {
@@ -208,7 +209,7 @@ label {
     display: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     * {
         margin: 0px;
         padding: 0px;

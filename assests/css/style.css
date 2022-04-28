@@ -7,6 +7,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -103,8 +105,6 @@ h5 {
     border-radius: 10px;
     padding-left: 30px;
     flex-direction: column;
-
-
 }
 
 .redBox img {
@@ -161,8 +161,6 @@ h5 {
     align-items: center;
     position: relative;
     top: 50%;
-
-
 }
 
 .icon img {
@@ -177,20 +175,17 @@ h5 {
 }
 
 .zoneform {
-
     flex: 40%;
     border-top: none;
     border-left: none;
     border-right: none;
     margin: 20px;
-
 }
 
 .files {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
-
 }
 
 .buttonfiles {
@@ -200,8 +195,6 @@ h5 {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
     max-width: 30%;
 }
-
-
 
 .smoothScroll {
     overflow-y: scroll;
@@ -215,15 +208,6 @@ h5 {
     height: 10vh;
 
 }
-
-/*.titlePage {
-    height: 90vh;
-    background: url(../img/Image_manu/Manu_campus.jpg);
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}*/
 
 .navbtn {
     display: flex;
@@ -303,7 +287,6 @@ h5 {
     margin-top: 50px;
     font-size: 14px;
     gap: 6rem;
-
 }
 
 #buttonInfos {
@@ -316,7 +299,6 @@ h5 {
     width: 140px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
     margin-right: 5px;
-
 }
 
 #buttonInscription {
@@ -330,18 +312,7 @@ h5 {
     margin-left: 5px;
 }
 
-
-
-
-
-
-
-
-
 /* fin de l'espace page principale  */
-
-
-
 
 .infoPrat {
     display: flex;
@@ -370,7 +341,6 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5vh;
-    /* height: 81vh; */
     font-size: 14px;
 }
 
@@ -399,21 +369,10 @@ h5 {
 /* fin de la page info début de la page contact */
 
 .mapsContact {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     height: 80vh;
     background: rgb(49, 49, 49);
     background: linear-gradient(180deg, rgba(49, 49, 49, 1) 0%, rgba(146, 0, 0, 1) 0%, rgba(254, 0, 0, 1) 70%, rgba(255, 255, 255, 1) 30%);
     padding-top: 1rem;
-}
-
-
-.titleAcces {
-    /* flex: 30vw; */
-    /* display: flex; */
-    /* height: 2rem;
-    padding-left: 2rem; */
-    /* color: white; */
 }
 
 .titleAcces img {
@@ -421,18 +380,11 @@ h5 {
     width: 20px;
     margin-right: 1rem;
     filter: brightness(0) invert(1);
-
 }
 
 .titleAcces h3 {
     margin-top: 0px;
 }
-
-/* .titleContact {
-    flex: 80vh;
-    display: flex;
-    height: 2rem;
-} */
 
 .titleContact img {
     height: 20px;
@@ -441,16 +393,28 @@ h5 {
     filter: brightness(0) invert(1);
 }
 
+#picsLaManu {
+    position: relative;
+    border-radius: 10px;
+    height: unset;
+    width: 100%;
+    filter: unset;
+    bottom: 22.5%;
+}
+.titleContact {
+    height: 100%;
+    padding-left: 2vw;
+    
+
+}
+
 .titleContact h3 {
     margin-top: 0px;
     color: white;
 }
-
-.upPage {
-    /* flex: 5vw;
-    height: 2rem; */
+.titleContact iframe {
+    height: 80%;
 }
-
 .upPage img {
     height: 20px;
     width: 20px;
@@ -485,59 +449,33 @@ h5 {
 }
 
 .formContact {
-    /* flex: 65vw; */
     display: flex;
-    /* height: 620px; */
-    /* max-width: 1030px; */
-    /* position: relative; */
     top: 1%;
 }
 
-@media screen and (max-width:576px) {
 
-    .titleForm {
-        display: flex;
-        /* flex: 1; */
-        height: 25vh;
-        background-color: #E2001A;
-        color: white;
-        /* position: relative; */
-        /* top: 0.9%; */
-        border-radius: 30px;
-        box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
-        flex-direction: column;
-        justify-content: space-between;
-    }
-}
+
 @media screen and (min-width:576px) {
-
     .titleForm {
         display: flex;
-        /* flex: 1; */
-        height: 70vh;
+        height: 100%;
         background-color: #E2001A;
         color: white;
-        /* position: relative; */
-        /* top: 0.9%; */
         border-radius: 30px;
         box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
         flex-direction: column;
         justify-content: space-between;
     }
 }
-
 
 .titre {
-    text-align:center;
-    /* flex: 2; */
-    /* padding-left: 2rem; */
+    text-align: center;
     padding-top: 15px;
     align-items: center;
     font-size: 24px;
 }
 
 .formInfo {
-    /* flex: 1; */
     padding-left: 2rem;
     font-size: 14px;
 }
@@ -566,34 +504,22 @@ h5 {
 
 .trueForm {
     font-size: 14px;
-    /* flex: 2;
-    display: flex;
-    flex-direction: column; */
     background-color: white;
-    /* height: 620px; */
-    /* position: relative; */
-    /* top: 0.9%; */
-    /* margin-right: 10%; */
     border-radius: 30px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333)
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+    height: 83%;
 }
 
 .infoBase {
-    /* padding-top: 2rem; */
-    /* flex: 1; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    height:40vh;
+    height:100%;
+    display: flex;
+    flex-direction: column;
     border: none;
-    /* padding-left: 4rem; */
+    justify-content: space-evenly;
 }
+
 .infoBaseButton {
-    /* padding-top: 2rem; */
-    /* flex: 1; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     border: none;
-    /* padding-left: 4rem; */
 }
 
 .textFormInput {
@@ -627,31 +553,12 @@ h5 {
 
 .Envoyerbtn {
     background-color: #E2001A;
-    /* position: relative; */
-    /* left: 80%; */
-    /* bottom: 100%; */
     width: 150px;
     border: none;
     height: 36px;
     border-radius: 10px;
     color: white;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
-}
-
-
-
-/* footer  */
-
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer img {
-    filter: brightness(0);
-    height: 150px;
-    width: 150px;
 }
 
 
@@ -680,10 +587,9 @@ h5 {
 
 .main {
     background-color: rgb(255, 255, 255);
-    flex: 9;
-    display: flex;
+    /* flex: 9; */
+    /* display: flex; */
 }
-
 
 .wrapper {
     background-color: white;
@@ -699,22 +605,10 @@ h5 {
     align-items: center;
 }
 
-
 .image {
     filter: brightness(0) invert(1);
     padding: 48px;
 }
-
-/* .button {
-                    height: 36px;
-                    width: 100px;
-                    background-color: #E2001A;
-                    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.332);
-                    font-size: 14px;
-                    color: white;
-                    border-radius: 5px;
-                    border: none;
-                } */
 
 .form2 {
     display: flex;
@@ -723,7 +617,6 @@ h5 {
 
 }
 
-
 .imageBlack {
     filter: none;
 }
@@ -731,7 +624,6 @@ h5 {
 .parameter {
     align-self: flex-start;
 }
-
 
 span {
     color: white;
@@ -775,12 +667,6 @@ p {
     font-size: 14px;
 }
 
-/* h4 {
-    padding-right: 48px;
-    margin-bottom: -24px;
-    font-size: 24px;
-} */
-
 ul {
     padding-right: 48px;
     margin-top: -30px;
@@ -791,7 +677,6 @@ ul {
     width: 50vh;
 }
 
-
 .butonexpo {
     color: #E2001A;
     border: solid 1px;
@@ -801,7 +686,6 @@ ul {
     background-color: white;
     border: none;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
-
 }
 
 .collapse {
@@ -814,6 +698,8 @@ ul {
 
 #buttonDisplaySm {
     display: inline-block;
+    position: relative;
+    right: -27vw;
 }
 
 #buttonDisplayLg {
@@ -824,19 +710,116 @@ ul {
     padding-top: 3vh !important;
 }
 
-@media screen and (min-width:576px) {
+
+/* Partie du footer Stef */
+
+@media screen and (max-width:992px) {
+    .logoFooter {
+        height: 8vh;
+        margin-top: 3.5vh;
+    }
+
+    .txtFooter {
+        font-size: 0.6rem;
+        white-space: normal;
+    }
+
+    .txtFootstart {
+        padding-bottom: 2vh;
+    }
+
+    .txtFootMiddle {
+        padding-bottom: 2vh;
+    }
+
+    .txtFootEnd {
+        padding-bottom: 2vh;
+    }
+
+    .txtFootRight {
+        text-align: right;
+        padding-top: 0.5vh;
+    }
     #buttonDisplaySm {
-        display: none;
+        right: -13vw;
+    }
+} 
+
+@media screen and (min-width:992px) {
+    footer{
+        background-color: #E2001A;
+        padding-bottom:5vh;
+    }
+    .logoFooter {
+        height: 12vh;
+        padding-bottom: 2vh;
     }
 
-    #buttonDisplayLg {
-        display: inline-block;
+    .txtFooter {
+        font-size: 0.7rem;
+        white-space: nowrap;
     }
 
-    footer {
+    .txtFootstart {
+        text-align: start;
+        padding-left: 5vh;
+    }
+
+    .txtFootEnd {
+        text-align: end;
+        padding-right: 5vh;
+    }
+
+    .txtFootRight {
+        text-align: normal;
+    }
+
+    .txtFootEnd {
+        align-items: flex-end;
+    }
+    #buttonDisplaySm {
+        right: -24vw;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1181px) {
+    .titleContact > iframe {
+        height: 82%;
+    }
+    #picsLaManu {
+        bottom: 20.5%;
+    }
+}
+
+@media screen and (min-width: 819px) and (min-height: 1179px) {
+    #picsLaManu {
+        bottom: 9%;
+    }
+}
+@media screen and (max-width:576px) {
+    .titleForm {
+        display: flex;
+        height: 25vh;
+        background-color: #E2001A;
+        color: white;
+        border-radius: 30px;
+        box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        color: black;
+        justify-content: space-between;
+    }
+    main {
+        height: 425vh;
+    }
+    .trueForm {
+        height: 100vh;
+    }
+    .infoBase {
+        height: 60%;
+    }
+    .formInfo > a {
+        display: flex;  
+    }
+    .iconInfoPrat {
+        position: absolute;
+        left: 75%;
     }
 }
