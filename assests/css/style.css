@@ -697,12 +697,6 @@ ul {
     align-items: right !important;
 }
 
-#buttonDisplaySm {
-    /* display: inline-block; */
-    /* position: relative; */
-    /* right: -27vw; */
-}
-
 #buttonDisplayLg {
     display: none;
 }
@@ -742,10 +736,6 @@ ul {
         padding-top: 0.5vh;
     }
 
-    #buttonDisplaySm {
-        /* right: -13vw; */
-        /* padding-bottom:10px; */
-    }
 }
 
 @media screen and (max-width:576px) {
@@ -788,10 +778,6 @@ ul {
 
     .txtFootEnd {
         align-items: flex-end;
-    }
-
-    #buttonDisplaySm {
-        /* right: -19.5vw; */
     }
 }
 

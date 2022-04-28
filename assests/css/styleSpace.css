@@ -35,7 +35,7 @@ md 768 */
 #imgUser {
     filter: brightness(0) invert(1);
     width: 3vw;
-    height: 5vh;
+    height: 10vh;
     margin: 4vh;
 }
 
@@ -72,7 +72,7 @@ md 768 */
         filter: brightness(0) invert(1);
     }
     .image {
-        width: 3vh;
+        /* width: 3vh; */
     }
     .span1 {
         font-size: 1.2rem;
@@ -98,7 +98,7 @@ md 768 */
     padding: 3vw;
     background-color: rgb(255, 255, 255);
     flex: 9;
-    display: flex;
+    /* display: flex; */
 }
 
 @media screen and (max-width: 576px) {
@@ -340,7 +340,7 @@ a {
     }
 
     .imageHome {
-        width: 8vw;
+        width: 5vw;
     }
 
     .mobileImg {
@@ -379,7 +379,7 @@ a {
     #botSide {
         padding: 0;
         position: relative;
-        top: 20vh;
+        /* top: 20vh; */
     }
 
     #hidedDesktopDiv {
