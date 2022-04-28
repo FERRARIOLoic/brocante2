@@ -15,11 +15,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-a:hover {
-    color: grey;
+#fixBtn {
+    display: flex;
+    justify-content: space-between;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -463,6 +462,14 @@ h5 {
         flex-direction: column;
         justify-content: space-between;
     }
+    .navbar-expand-sm .navbar-collapse {
+        justify-content: space-between;
+        padding-right: 1%;
+    }
+    .navbar-nav {
+        flex:2;
+        justify-content: center;
+    }
 }
 
 .titre {
@@ -691,9 +698,9 @@ ul {
 }
 
 #buttonDisplaySm {
-    display: inline-block;
-    position: relative;
-    right: -27vw;
+    /* display: inline-block; */
+    /* position: relative; */
+    /* right: -27vw; */
 }
 
 #buttonDisplayLg {
@@ -736,8 +743,8 @@ ul {
     }
 
     #buttonDisplaySm {
-        right: -13vw;
-        padding-bottom: 10px;
+        /* right: -13vw; */
+        /* padding-bottom:10px; */
     }
 }
 
@@ -784,7 +791,7 @@ ul {
     }
 
     #buttonDisplaySm {
-        right: -28vw;
+        /* right: -19.5vw; */
     }
 }
 
