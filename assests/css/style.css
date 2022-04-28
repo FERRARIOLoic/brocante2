@@ -732,7 +732,8 @@ ul {
         padding-top: 0.5vh;
     }
     #buttonDisplaySm {
-        right: -13vw;
+        right: -58vw;
+        padding-bottom:10px;
     }
 } 
 
@@ -769,7 +770,7 @@ ul {
         align-items: flex-end;
     }
     #buttonDisplaySm {
-        right: -24vw;
+        right: -28vw;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 1181px) {
