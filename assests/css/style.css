@@ -707,7 +707,6 @@ ul {
 @media screen and (max-width:992px) {
     .logoFooter {
         height: 8vh;
-        /*margin-top: 3.5vh;*/
     }
 
     .txtFooter {
