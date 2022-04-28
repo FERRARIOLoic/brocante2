@@ -9,16 +9,13 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 a {
     text-decoration: none;
     color: inherit;
 }
-main {
-    height: 415vh;
-}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -103,7 +100,7 @@ h5 {
 
 .redBox {
     display: flex;
-    background-color: red;
+    background-color: #E2001A;
     width: 500px;
     border-radius: 10px;
     padding-left: 30px;
@@ -235,16 +232,6 @@ h5 {
     text-align: end;
 }
 
-.butonexpo {
-    color: #E2001A;
-    border: none;
-    border-radius: 10px;
-    height: 36px;
-    padding: 10px;
-    font-size: 14px;
-    background-color: white;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
-}
 
 .navimg img {
     height: 70px;
@@ -299,8 +286,9 @@ h5 {
     border-color: white;
     border-radius: 10px;
     height: 36px;
-    width: 130px;
+    width: 140px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
+    margin-right: 5px;
 }
 
 #buttonInscription {
@@ -308,9 +296,10 @@ h5 {
     border-radius: 10px;
     color: white;
     height: 36px;
-    width: 130px;
+    width: 140px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
     border: none;
+    margin-left: 5px;
 }
 
 /* fin de l'espace page principale  */
@@ -400,13 +389,22 @@ h5 {
     height: unset;
     width: 100%;
     filter: unset;
-    bottom: 6vh;
+    bottom: 22.5%;
 }
+.titleContact {
+    height: 100%;
+    padding-left: 2vw;
+    
+
+}
+
 .titleContact h3 {
     margin-top: 0px;
     color: white;
 }
-
+.titleContact iframe {
+    height: 80%;
+}
 .upPage img {
     height: 20px;
     width: 20px;
@@ -445,23 +443,12 @@ h5 {
     top: 1%;
 }
 
-@media screen and (max-width:576px) {
-    .titleForm {
-        display: flex;
-        height: 25vh;
-        background-color: #E2001A;
-        color: white;
-        border-radius: 30px;
-        box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
-        flex-direction: column;
-        justify-content: space-between;
-    }
-}
+
 
 @media screen and (min-width:576px) {
     .titleForm {
         display: flex;
-        height: 70vh;
+        height: 100%;
         background-color: #E2001A;
         color: white;
         border-radius: 30px;
@@ -472,7 +459,7 @@ h5 {
 }
 
 .titre {
-    text-align:center;
+    text-align: center;
     padding-top: 15px;
     align-items: center;
     font-size: 24px;
@@ -509,13 +496,18 @@ h5 {
     font-size: 14px;
     background-color: white;
     border-radius: 30px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333)
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+    height: 83%;
 }
 
 .infoBase {
-    height:40vh;
+    height:100%;
+    display: flex;
+    flex-direction: column;
     border: none;
+    justify-content: space-evenly;
 }
+
 .infoBaseButton {
     border: none;
 }
@@ -559,20 +551,6 @@ h5 {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
-/* footer  */
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer img {
-    filter: brightness(0);
-    height: 150px;
-    width: 150px;
-}
 
 #side {
     background-color: #E2001A;
@@ -711,6 +689,8 @@ ul {
 
 #buttonDisplaySm {
     display: inline-block;
+    position: relative;
+    right: -27vw;
 }
 
 #buttonDisplayLg {
@@ -721,73 +701,116 @@ ul {
     padding-top: 3vh !important;
 }
 
-@media screen and (min-width:576px) {
-    #buttonDisplaySm {
-        display: none;
-    }
-
-    #buttonDisplayLg {
-        display: inline-block;
-    }
-
-    footer {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        color: black;
-    }
-}
 
 /* Partie du footer Stef */
 
-.logoFooter {
-    height: 8vh;
-    margin-top: 3.5vh;
-}
+@media screen and (max-width:992px) {
+    .logoFooter {
+        height: 8vh;
+        margin-top: 3.5vh;
+    }
 
-.txtFooter {
-    font-size: 0.6rem;
-    white-space: normal;
-}
+    .txtFooter {
+        font-size: 0.6rem;
+        white-space: normal;
+    }
 
-.txtFootstart {
-    padding-bottom: 2vh;
-}
+    .txtFootstart {
+        padding-bottom: 2vh;
+    }
 
-.txtFootMiddle {
-    padding-bottom: 2vh;
-}
+    .txtFootMiddle {
+        padding-bottom: 2vh;
+    }
 
-.txtFootEnd {
-    padding-bottom: 2vh;
-}
+    .txtFootEnd {
+        padding-bottom: 2vh;
+    }
 
-.txtFootRight {
-    text-align: right;
-    padding-top: 0.5vh;
-}
+    .txtFootRight {
+        text-align: right;
+        padding-top: 0.5vh;
+    }
+    #buttonDisplaySm {
+        right: -13vw;
+    }
+} 
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:992px) {
+    footer{
+        /* background-color: #E2001A; */
+        padding-bottom:5vh;
+    }
     .logoFooter {
         height: 12vh;
         padding-bottom: 2vh;
     }
+
     .txtFooter {
         font-size: 0.7rem;
         white-space: nowrap;
     }
+
     .txtFootstart {
         text-align: start;
-        padding-left: 5vh;      
+        padding-left: 5vh;
     }
+
     .txtFootEnd {
         text-align: end;
         padding-right: 5vh;
     }
+
     .txtFootRight {
         text-align: normal;
     }
+
     .txtFootEnd {
         align-items: flex-end;
+    }
+    #buttonDisplaySm {
+        right: -24vw;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 1181px) {
+    .titleContact > iframe {
+        height: 82%;
+    }
+    #picsLaManu {
+        bottom: 20.5%;
+    }
+}
+
+@media screen and (min-width: 819px) and (min-height: 1179px) {
+    #picsLaManu {
+        bottom: 9%;
+    }
+}
+@media screen and (max-width:576px) {
+    .titleForm {
+        display: flex;
+        height: 25vh;
+        background-color: #E2001A;
+        color: white;
+        border-radius: 30px;
+        box-shadow: 3px 3px 6px rgb(0 0 0 / 33%);
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    main {
+        height: 425vh;
+    }
+    .trueForm {
+        height: 100vh;
+    }
+    .infoBase {
+        height: 60%;
+    }
+    .formInfo > a {
+        display: flex;
+    }
+    .iconInfoPrat {
+        position: absolute;
+        left: 75%;
     }
 }

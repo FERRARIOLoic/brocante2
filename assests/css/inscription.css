@@ -20,6 +20,7 @@ a {
     background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
     background-size: 100%;
     background-position-y: center;
+
 }
 
 .navbtn {
@@ -36,7 +37,7 @@ a {
 
 .navimg {
     flex: 0.5;
-    margin-left: 2rem;
+    padding:10px;
 }
 
 .navexpo {
@@ -89,7 +90,7 @@ h5 {
 
 .redBox {
     display: flex;
-    background-color: red;
+    background-color: #E2001A;
     width: 500px;
     border-radius: 10px;
     padding-left: 30px;
