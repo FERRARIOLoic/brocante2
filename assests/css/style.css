@@ -813,7 +813,10 @@ ul {
         height: 60%;
     }
     .formInfo > a {
-        display: flex;
-        
+        display: flex;  
+    }
+    .iconInfoPrat {
+        position: absolute;
+        left: 75%;
     }
 }
