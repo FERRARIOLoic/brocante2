@@ -733,10 +733,18 @@ ul {
         padding-top: 0.5vh;
     }
     #buttonDisplaySm {
-        right: -58vw;
+        right: -13vw;
         padding-bottom:10px;
     }
 } 
+
+@media screen and (max-width:576px) {
+    #buttonDisplaySm {
+        right: -58vw;
+        padding-bottom:10px;
+    }
+}
+
 
 @media screen and (min-width:992px) {
     footer{
