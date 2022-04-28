@@ -25,7 +25,7 @@ a {
 
 .titlePage {
     height: auto;
-    background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
+    background-image: url(../img/Image_manu/Manu_campus.jpg);
     background-position: 50% 50%;
     border-radius: 10px;
     background-repeat: no-repeat;
@@ -733,10 +733,18 @@ ul {
         padding-top: 0.5vh;
     }
     #buttonDisplaySm {
-        right: -58vw;
+        right: -13vw;
         padding-bottom:10px;
     }
 } 
+
+@media screen and (max-width:576px) {
+    #buttonDisplaySm {
+        right: -58vw;
+        padding-bottom:10px;
+    }
+}
+
 
 @media screen and (min-width:992px) {
     footer{
