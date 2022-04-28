@@ -743,7 +743,7 @@ ul {
     }
     .logoFooter {
         height: 12vh;
-        padding-bottom: 2vh;
+        /* padding-bottom: 2vh; */
     }
 
     .txtFooter {
