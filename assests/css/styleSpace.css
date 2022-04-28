@@ -344,12 +344,14 @@ a {
 
     #topSide {
         padding-top: 2vh;
+        height: 50%;
+        justify-content: space-between;
     }
 
     #botSide {
         padding: 0;
         position: relative;
-        top: 30vh;
+        top: 20vh;
     }
 
     #hidedDesktopDiv {
