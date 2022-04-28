@@ -25,7 +25,7 @@ a {
 
 .titlePage {
     height: auto;
-    background-image: url(/assests/img/Image_manu/Manu_campus.jpg);
+    background-image: url(../img/Image_manu/Manu_campus.jpg);
     background-position: 50% 50%;
     border-radius: 10px;
     background-repeat: no-repeat;
