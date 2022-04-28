@@ -668,6 +668,20 @@ ul {
     width: 50vh;
 }
 
+<<<<<<< HEAD
+=======
+.butonexpo {
+    color: #E2001A;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.333);
+    /*height: auto;*/
+}
+>>>>>>> a745f1cadae88a4d9e4d860d9ba8aba1d894e011
 
 .collapse {
     align-items: right !important;
