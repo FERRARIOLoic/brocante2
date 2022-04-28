@@ -9,7 +9,6 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    /* height: 100%; */
 }
 
 a {
@@ -690,7 +689,8 @@ ul {
 
 #buttonDisplaySm {
     display: inline-block;
-    
+    position: relative;
+    right: -27vw;
 }
 
 #buttonDisplayLg {
@@ -731,11 +731,14 @@ ul {
         text-align: right;
         padding-top: 0.5vh;
     }
+    #buttonDisplaySm {
+        right: -13vw;
+    }
 } 
 
 @media screen and (min-width:992px) {
     footer{
-        background-color: #E2001A;
+        /* background-color: #E2001A; */
         padding-bottom:5vh;
     }
     .logoFooter {
@@ -764,6 +767,9 @@ ul {
 
     .txtFootEnd {
         align-items: flex-end;
+    }
+    #buttonDisplaySm {
+        right: -24vw;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 1181px) {
