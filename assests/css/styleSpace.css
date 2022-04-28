@@ -28,12 +28,29 @@ md 768 */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 24px;
+    height: 30vh;
+    padding-top: 10vh;
 }
 
 #imgUser {
     filter: brightness(0) invert(1);
     width: 3vw;
+    height: 5vh;
+    margin: 4vh;
+}
+
+.span1 {
+    font-size: 1.0rem;
+    margin: 4vh;
+}
+
+.image {
+    filter: brightness(0) invert(1);
+    margin: 4vh;
+}
+
+.span2 {
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width: 576px) {
@@ -41,9 +58,28 @@ md 768 */
         width: 10vw;
         filter: brightness(0) invert(1);
     }
+    .span1 {
+        font-size: 0.6rem;
+    }
+    .span2 {
+        margin-bottom: 10px;       
+    }
+}
 
-    #span1 {
-        font-size: 8px;
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #imgUser {
+        width: 8vw;
+        filter: brightness(0) invert(1);
+    }
+    .image {
+        width: 3vh;
+    }
+    .span1 {
+        font-size: 1.2rem;
+    }
+    .span2 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;       
     }
 }
 
@@ -51,7 +87,11 @@ md 768 */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 24px;
+    /*padding-bottom: 20px;*/
+}
+
+#hidedDesktopDiv {
+    display: none;
 }
 
 .main {
@@ -85,7 +125,7 @@ md 768 */
     padding-left: 48px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     .wrapper {
         width: unset;
         height: 100%;
@@ -107,14 +147,6 @@ h4 {
     padding-left: 48px;
 }
 
-#hidedDesktopDiv {
-    display: none;
-}
-
-.image {
-    filter: brightness(0) invert(1);
-}
-
 .formulaire {
     display: flex;
     align-items: flex-start;
@@ -126,7 +158,7 @@ form>.form {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     .formulaire {
         flex-direction: column;
         align-items: unset;
@@ -191,7 +223,7 @@ select {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     input {
         margin-left: unset;
         margin-bottom: unset;
@@ -231,10 +263,6 @@ span {
     color: white;
 }
 
-.span2 {
-    padding-bottom: 40px;
-}
-
 .imageHome {
     width: 3vw;
     padding-bottom: 3%;
@@ -256,7 +284,7 @@ a {
     border: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     input {
         box-sizing: border-box;
         border: 0px solid black;
@@ -344,12 +372,14 @@ a {
 
     #topSide {
         padding-top: 2vh;
+        height: 50%;
+        justify-content: space-between;
     }
 
     #botSide {
         padding: 0;
         position: relative;
-        top: 30vh;
+        top: 20vh;
     }
 
     #hidedDesktopDiv {
