@@ -28,12 +28,34 @@ md 768 */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 24px;
+    height: 30vh;
+    padding-top: 10vh;
 }
 
 #imgUser {
     filter: brightness(0) invert(1);
     width: 3vw;
+    height: 5vh;
+    margin: 4vh;
+}
+
+.span1 {
+    font-size: 1.0rem;
+    margin: 4vh;
+}
+
+.image {
+    filter: brightness(0) invert(1);
+    margin: 4vh;
+}
+
+.span2 {
+    padding-bottom: 40px;
+}
+
+.formButton {
+    padding-top: 5vh;
+    text-align: end;        
 }
 
 @media screen and (max-width: 576px) {
@@ -41,9 +63,44 @@ md 768 */
         width: 10vw;
         filter: brightness(0) invert(1);
     }
+    .span1 {
+        font-size: 0.6rem;
+    }
+    .span2 {
+        margin-bottom: 10px;       
+    }
+    .form {
+        font-size: 1.0rem;
+    }
 
-    #span1 {
-        font-size: 8px;
+    .formButton {
+        padding-top: 5vh;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #imgUser {
+        width: 8vw;
+        filter: brightness(0) invert(1);
+    }
+    .image {
+        width: 3vh;
+    }
+    .span1 {
+        font-size: 1.2rem;
+    }
+    .span2 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;       
+    }
+    .form {
+        font-size: 1.2rem;
+    }
+
+    .formButton {
+        padding-top: 5vh;
+        text-align: end;
     }
 }
 
@@ -51,7 +108,7 @@ md 768 */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 24px;
+    /*padding-bottom: 20px;*/
 }
 
 .main {
@@ -156,6 +213,11 @@ h4 {
         padding: 3%;
         gap: 2vh;
     }
+
+    .formButton {
+        padding-top: 5vh;
+        text-align: center;
+    }
 }
 
 input {
@@ -192,6 +254,7 @@ select {
     display: flex;
     justify-content: flex-end;
     margin-top: 100px;
+    padding-right: 5vw;
 }
 
 @media screen and (max-width: 576px) {
@@ -218,6 +281,7 @@ select {
         margin-top:10%;
         height: 25%;
         justify-content: center;
+        padding-right: 0vw;
     }
 }
 
@@ -259,7 +323,7 @@ a {
     border: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     input {
         box-sizing: border-box;
         border: 0px solid black;
@@ -320,6 +384,10 @@ a {
 
     .mobileImg {
         width: 4vw;
+    }
+
+    .wrapper {
+        width: 100%;
     }
 }
 
@@ -408,12 +476,6 @@ a {
 
     .imageBlack {
         display: none;
-    }
-
-    .form2 {
-        display: flex;
-        width: 100%;
-        justify-content: flex-end;
     }
 
     input {
